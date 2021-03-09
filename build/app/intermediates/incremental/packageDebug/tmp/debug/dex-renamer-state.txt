@@ -1,4 +1,4 @@
-#Mon Mar 08 16:51:00 BRT 2021
-base.0=D\:\\Alura\\FlutterWebApi\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+#Mon Mar 08 20:33:26 BRT 2021
+base.0=D\:\\Alura\\FlutterWebApiUI\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

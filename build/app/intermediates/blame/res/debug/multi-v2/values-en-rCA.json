@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Alura\\FlutterWebApi\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
+            "outputFile": "D:\\Alura\\FlutterWebApiUI\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Alan\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\3d2b4674fe8d9a95a67a4e17da8a2a0c\\res\\values-en-rCA\\values-en-rCA.xml",
