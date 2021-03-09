@@ -24,6 +24,14 @@ class TransactionWebClient {
         },
         body: transactionJson);
 
+    if(response.statusCode == 400){
+      throw Exception('sem valor');
+    }
+
+    if(response.statusCode == 401){
+      throw Exception('senha invalida');
+    }
+
     return Transaction.fromJson(jsonDecode(response.body));
   }
 }

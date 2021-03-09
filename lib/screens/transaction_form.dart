@@ -59,16 +59,22 @@ class _TransactionFormState extends State<TransactionForm> {
                 child: SizedBox(
                   width: double.maxFinite,
                   child: RaisedButton(
-                    child: Text('Transfer'), onPressed: () {
-                    final double value = double.tryParse(_valueController.text);
-                    final transactionCreated = Transaction(value, widget.contact);
-                    showDialog(context: context, builder: (contextDialog) {
-                      return TransactionAuthDialog(onConfirm: (String password) {
-                        _save(transactionCreated, password, context);
-                      },);
-                    });
-
-                  },
+                    child: Text('Transfer'),
+                    onPressed: () {
+                      final double value =
+                          double.tryParse(_valueController.text);
+                      final transactionCreated =
+                          Transaction(value, widget.contact);
+                      showDialog(
+                          context: context,
+                          builder: (contextDialog) {
+                            return TransactionAuthDialog(
+                              onConfirm: (String password) {
+                                _save(transactionCreated, password, context);
+                              },
+                            );
+                          });
+                    },
                   ),
                 ),
               )
@@ -79,12 +85,15 @@ class _TransactionFormState extends State<TransactionForm> {
     );
   }
 
-  void _save(Transaction transactionCreated, String password, BuildContext context) async {
+  void _save(Transaction transactionCreated, String password,
+      BuildContext context) async {
     await Future.delayed(Duration(seconds: 1));
-    _webClient.save(transactionCreated,password).then((transaction) {
-      if(transaction != null){
+    _webClient.save(transactionCreated, password).then((transaction) {
+      if (transaction != null) {
         Navigator.pop(context);
       }
+    }).catchError((e){
+      print(e);
     });
   }
 }
