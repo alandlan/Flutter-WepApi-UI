@@ -38,6 +38,18 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "convert",
+      "rootUri": "file:///C:/Users/Alan/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/convert-2.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "1.17"
+    },
+    {
+      "name": "crypto",
+      "rootUri": "file:///C:/Users/Alan/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/crypto-2.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
       "name": "cupertino_icons",
       "rootUri": "file:///C:/Users/Alan/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/cupertino_icons-0.1.2",
       "packageUri": "lib/",
@@ -164,6 +176,12 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "uuid",
+      "rootUri": "file:///C:/Users/Alan/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/uuid-2.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
       "name": "vector_math",
       "rootUri": "file:///C:/Users/Alan/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/vector_math-2.1.0-nullsafety.3",
       "packageUri": "lib/",
@@ -176,7 +194,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2021-03-07T17:47:54.684767Z",
+  "generated": "2021-03-09T22:02:13.422337Z",
   "generator": "pub",
   "generatorVersion": "2.10.5"
 }
